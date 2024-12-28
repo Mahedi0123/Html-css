@@ -1,0 +1,54 @@
+.form {
+    /* text-align: center; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.password {
+    background-color: rgb(187, 187, 196);
+    padding: 12px;
+    border-radius: 6px;
+    border-width: 3px;
+    border-color: rgb(243, 7, 7);
+    outline: none;
+}
+
+h2 {
+    background-color: rgb(148, 200, 248);
+    padding: 200px;
+    border: 2px solid;
+    border: 2px solid red;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 100px;
+   transition: 2s ease;
+}
+
+h2:hover {
+    border: 2px solid green;
+    color: white;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+
+#menu > li {
+    list-style-type: none;
+}
+
+#menu > li > a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 600;
+    transition: 0.8s ease;
+}
+
+#menu > li > a:hover {
+    color: black;
+}

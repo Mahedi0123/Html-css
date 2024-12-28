@@ -1,0 +1,21 @@
+<h2>Today My First Practice is HTML and CSS</h2>
+    <!-- This is a Inline Css-->
+    <form class="form">
+        <div>
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" name="fullname" placeholder="Enter Your fullname"
+                style="background-color: bisque; padding: 10px; border-radius: 8px; border-color: rgb(238, 14, 14); border-width: 3px;">
+        </div>
+
+        <!--This is a intranal Css-->
+        <div>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" placeholder="Enter Your Email" required class="email">
+        </div>
+
+        <!--This is a Extranal CSS-->
+        <div>
+            <label for="password">Password:</label><br>
+            <input type="password" name="password" placeholder="Typing Your Password" required class="password">
+        </div>
+    </form>
